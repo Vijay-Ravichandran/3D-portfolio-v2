@@ -7,7 +7,7 @@ It is built using [threejs](https://github.com/mrdoob/three.js), [react-three-fi
 Created by Tomas Gonzalez.
 
 # Example: 
-https://tomasgonzalez.github.io/3d-portfolio/
+
 
 https://user-images.githubusercontent.com/26396804/193622132-c7e12305-3cbf-4c4c-8992-2f58104a5068.mp4
 
