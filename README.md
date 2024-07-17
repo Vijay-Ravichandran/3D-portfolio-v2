@@ -35,17 +35,6 @@ All the settings that you will ever need to touch are set inside the
 
 `src/configs.js`, `./constants/pageData.js`, and `src/theme.js`
 
-## Video tutorial:
-
-https://youtu.be/fC7e2ONfhUc
-
-## Deploy to github pages
-
-First make sure to create a `gh-pages` branch.
-
-After pushing the branch to GitHub, head over to the `Settings` page of the repository and select in the `GitHub Pages` section the `gh-pages` branch as source.
-
-After that run:
 
 ### `yarn deploy`
 
