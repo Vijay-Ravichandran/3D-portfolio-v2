@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
-import { CSSTransitionGroup } from 'react-transition-group'; // ES6
+import { CSSTransition } from 'react-transition-group';
 import {
   AiOutlineMenu,
   AiFillCaretRight,
   AiFillPauseCircle,
 } from 'react-icons/ai';
-import { useRaf, useWindowSize } from 'rooks';
+import { useWindowSize } from 'rooks';
 
 import theme from '~/src/theme';
 import NavModal from './NavModal';
@@ -27,7 +27,6 @@ const MainContainer = styled.div`
   border: 10px solid;
   border-image-slice: 1;
   border-width: 1px;
-  /* border: 1px solid ${(props) => props.theme.colors.primary}; */
   border-left-width: 0px;
   border-right-width: 0px;
   color: ${(props) => props.theme.colors.light};
@@ -62,11 +61,11 @@ const NavBar = () => {
   const audio = useRef();
   let userinteraction = 0;
 
+  // Audio autoplay setup (optional)
   // useEffect(() => {
   //   if (!audio.current) {
   //     audio.current = new Audio('audio/music.mp3');
   //     audio.current.loop = true;
-
   //     document.addEventListener('click', () => {
   //       if (userinteraction) return;
   //       userinteraction++;
@@ -81,24 +80,25 @@ const NavBar = () => {
   }, [innerWidth]);
 
   return (
-    <CSSTransitionGroup
-      transitionName='example'
-      transitionAppearTimeout={500}
-      transitionAppear={true}
-      transitionEnter={true}
-      transitionLeave={true}
-    >
-      <NavModal isOpen={isOpen} onRequestClose={() => setIsOpen(false)} />
+    <>
+      <CSSTransition
+        in={isOpen}
+        timeout={300}
+        classNames="modal"
+        unmountOnExit
+      >
+        <NavModal isOpen={isOpen} onRequestClose={() => setIsOpen(false)} />
+      </CSSTransition>
+
       <MainContainer windowWidth={windowWidth}>
         <PlayButton
           onClick={() => {
-            if (audio.current.paused) {
+            if (audio.current?.paused) {
               audio.current.play();
             } else {
               audio.current.pause();
             }
-
-            setPlayingAudio(!audio.current.paused);
+            setPlayingAudio(!audio.current?.paused);
           }}
         >
           {!playAudio ? (
@@ -107,12 +107,14 @@ const NavBar = () => {
             <AiFillPauseCircle color={theme.colors.primary} size={30} />
           )}
         </PlayButton>
+
         <div>{navTitle}</div>
+
         <MenuButton onClick={() => setIsOpen(true)}>
           <AiOutlineMenu color={theme.colors.primary} size={30} />
         </MenuButton>
       </MainContainer>
-    </CSSTransitionGroup>
+    </>
   );
 };
 
