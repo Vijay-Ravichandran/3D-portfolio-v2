@@ -34,7 +34,7 @@ function Hologram() {
       <Billboard>
         <Image
           scale={15}
-          url={'pictures/avtar.jpeg'}
+          url={'pictures/profile.jpg'}
           position={[0, 5, 0]}
         />
       </Billboard>

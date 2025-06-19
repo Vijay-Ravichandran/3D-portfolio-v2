@@ -7,8 +7,8 @@ import {
 } from './constants/pageData';
 
 const configs = {
-  title: '3D Expert',
-  subTitle: 'Expert portfolio.',
+  title: ' Immerse yourself',
+  subTitle: 'into my portfolio.',
   stars: {
     maxSize: 20,
     emissionIntencity: 40,
@@ -16,7 +16,7 @@ const configs = {
     // url: 'icons/three-js-logo.png',
     dencity: 900,
   },
-  navTitle: '3D Expert portfolio.',
+  navTitle: 'Building immersive web experiences from frontend to backend.',
   relevantStops: STOPS,
   pages: [
     {
@@ -26,10 +26,10 @@ const configs = {
       displayAt: displayAt('About'),
       title: "It's me !",
       infos: [ 
-        "* Fellow 3D enthusiasts! A passionate 3D expert with over a decade of experience under my belt. ",
-        "* From crafting realistic architectural models for clients to rigging characters for games and creating photorealistic short films, I thrive on pushing the boundaries of digital artistry. ",
-        "* My ultimate goal is to amaze audiences and leave them speechless with my innovative 3D creations.",
-        "* So, if you're looking to bring your 3D visions to life, let's chat! I'm eager to collaborate and help you turn your ideas into stunning reality.",
+        "  Transitioned From Project Management to Software Development. ",
+        "* Former Associate Project Co-Ordinator | Certified Scrum Master",
+        "* I'm now channeling my skills into Web development, building both robust backend systems and dynamic frontends.",
+        "* My drive is to create compelling, scalable immersive applications, applying continuous learning and hands-on experience to deliver real-world impact.",
       ],
     },
     {
@@ -39,7 +39,7 @@ const configs = {
       position: [-PAGE_DEPH_MARGIN, 0, 0],
       title: 'Experience',
       imageList: EXPERIENCE,
-      footer: 'You can click the icons to find out more.',
+      footer: 'Tap the first logo to explore my present company.',
     },
     {
       scale: 15,
@@ -67,7 +67,7 @@ const configs = {
           {
             url: 'icons/resume.png',
             websiteURL:
-              'https://docs.google.com/document/d/1iq9xGhwwZqSY-OXb1XXDsW6KzLuFvSyV/edit?usp=sharing&ouid=115954747649243080992&rtpof=true&sd=true',
+              'https://drive.google.com/file/d/1cT0MjB1Uc5LKR6iZQQAMBIM8fthanhR0/view',
           },
         ],
       },
@@ -80,36 +80,23 @@ const configs = {
       title: 'Personal Projects',
       footer: '(And also this web-app)',
       imageList: {
-        rows: 2,
+        rows: 1,
         separation: 2.5,
         leftPadding: -0.4,
         topPadding: 0.2,
         scale: 0.3,
         items: [
           {
-            url: 'websites-preview/nft-place-logo.png',
-            websiteURL: 'https://nft-place.xyz/',
+            url: 'websites-preview/duetlogo.png',
+            websiteURL: 'https://duetvr.com/',
           },
           {
-            url: 'websites-preview/snow-hero.png',
-            websiteURL: 'https://powtom48.itch.io/snow-the-hero',
+            url: 'websites-preview/Capture.JPG',
+            websiteURL: 'https://drive.google.com/file/d/1s9WS_6zVNQLg5yVUZODf-MYc74iwEurY/view?usp=sharing',
           },
           {
-            url: 'websites-preview/minecraft-in-js.png',
-            websiteURL:
-              'https://www.youtube.com/watch?v=yOUQquusyiY&t=123s&ab_channel=tomugon',
-          },
-          {
-            url: 'websites-preview/fish-chopter.png',
-            websiteURL: 'https://powtom48.itch.io/fishcopter',
-          },
-          {
-            url: 'websites-preview/odd-clowns.png',
-            websiteURL: 'https://oddclowns.com/',
-          },
-          {
-            url: 'websites-preview/island-ai.png',
-            websiteURL: 'https://www.instagram.com/island.ai/',
+            url: 'websites-preview/ARRi.png',
+            websiteURL:'https://arr.mindwox.com/',
           },
         ],
       },
@@ -118,31 +105,23 @@ const configs = {
       scale: 15,
       displayAt: displayAt('Get In Touch'),
       rotation: [0, Math.PI / 2, 0],
-      position: [PAGE_DEPH_MARGIN, 0, 0],
-      title: 'You can find me in:',
+      position: [PAGE_DEPH_MARGIN, 0, 1],
+      title: 'You can reach out me in:',
       footer: 'Almost done but keep scrolling :)',
       imageList: {
-        rows: 2,
+        rows: 1,
         separation: 1.8,
         leftPadding: -0.25,
         topPadding: 0.2,
         scale: 0.3,
         items: [
           {
-            url: 'icons/twitter.png',
-            websiteURL: 'https://github.com/yummo8',
-          },
-          {
             url: 'icons/linkedin.png',
-            websiteURL: 'https://github.com/yummo8',
+            websiteURL: 'https://www.linkedin.com/in/vijayaragavanr2',
           },
           {
             url: 'icons/github.png',
-            websiteURL: 'https://github.com/yummo8',
-          },
-          {
-            url: 'icons/email.png',
-            websiteURL: 'mailto:soroslinuor@gmail.com',
+            websiteURL: 'https://github.com/Vijay-Ravichandran',
           },
         ],
       },

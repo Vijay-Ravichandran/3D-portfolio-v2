@@ -10,7 +10,7 @@
 export const PAGE_DEPH_MARGIN = 15;
 
 export const EXPERIENCE = {
-  rows: 2,
+  rows: 1,
   separation: 3,
   leftPadding: -0.32,
   topPadding: 0.22,
@@ -24,50 +24,43 @@ export const EXPERIENCE = {
   },
   items: [
     {
-      url: 'websites-preview/optic-logo.png',
-      websiteURL: 'https://optic.id/',
+      url: 'websites-preview/mainlogo.png',
+      websiteURL: 'https://madrasmindworks.com/',
     },
     {
-      url: 'websites-preview/good-dollar.jpeg',
-      websiteURL: 'https://www.gooddollar.org/',
+      url: 'websites-preview/Boschlogo.png',
+      websiteURL: '',
     },
     {
-      url: 'websites-preview/cs2.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/cs.html', //optional open url in new tab
+      url: 'websites-preview/tilogo.jpg',
+      websiteURL:'', //optional open url in new tab
     },
-    {
-      url: 'websites-preview/knack-page.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/knack.html',
-    },
-    {
-      url: 'websites-preview/magic.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/magic-app.html',
-    },
+    
   ],
 };
 
 export const SKILLS_LIST = {
-  rows: 4,
+  rows: 5,
   separation: 2.4,
   leftPadding: -0.4,
   topPadding: 0.33,
   scale: 0.15,
   items: [
-    { url: 'icons/react-native.png', websiteURL: null },
-    { url: 'icons/react-logo.png', websiteURL: null },
-    { url: 'icons/ts-logo.png', websiteURL: null },
-    { url: 'icons/js-logo.png', websiteURL: null },
-    { url: 'icons/css-logo.png', websiteURL: null },
-    { url: 'icons/html-logo.png', websiteURL: null },
-    { url: 'icons/node-js-logo.png', websiteURL: null },
-    { url: 'icons/python-logo.png', websiteURL: null },
-    { url: 'icons/three-js-logo.png', websiteURL: null },
-    { url: 'icons/jest-logo.png', websiteURL: null },
-    { url: 'icons/graph-ql-logo.png', websiteURL: null },
-    { url: 'icons/vim-logo.png', websiteURL: null },
+    { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original-wordmark.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original-wordmark.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg', websiteURL: null }
   ],
 };
 

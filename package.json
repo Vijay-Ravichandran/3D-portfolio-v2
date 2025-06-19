@@ -2,7 +2,7 @@
   "name": "3d-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://https://vijay-ravichandran.github.io/3D-portfolio-main",
   "dependencies": {
     "@react-three/drei": "^9.32.3",
     "@react-three/fiber": "^8.8.6",
@@ -26,6 +26,8 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
+    "backend": "node server.js",
+    "dev": "concurrently \"npm:start\" \"npm:backend\"",
     "build": "react-app-rewired build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -61,6 +63,7 @@
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
     "babel-plugin-root-import": "^6.6.0",
+    "concurrently": "^9.1.2",
     "customize-cra": "^1.0.0",
     "gh-pages": "^4.0.0",
     "react-app-rewired": "^2.2.1",
