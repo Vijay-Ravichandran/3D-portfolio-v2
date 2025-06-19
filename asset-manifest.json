@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "//vijay-ravichandran.github.io/3D-portfolio-v2/static/css/main.8acdb0c0.css",
-    "main.js": "//vijay-ravichandran.github.io/3D-portfolio-v2/static/js/main.f3b354f0.js",
-    "static/js/27.30fbff63.chunk.js": "//vijay-ravichandran.github.io/3D-portfolio-v2/static/js/27.30fbff63.chunk.js",
-    "static/media/alpha-map.png": "//vijay-ravichandran.github.io/3D-portfolio-v2/static/media/alpha-map.d0ab86baef65d5137043.png",
-    "static/media/cube.glb": "//vijay-ravichandran.github.io/3D-portfolio-v2/static/media/cube.2cd1d417c0994b805dc7.glb",
-    "index.html": "//vijay-ravichandran.github.io/3D-portfolio-v2/index.html"
+    "main.css": "/3D-portfolio-v2/static/css/main.8acdb0c0.css",
+    "main.js": "/3D-portfolio-v2/static/js/main.d260b5a1.js",
+    "static/js/27.30fbff63.chunk.js": "/3D-portfolio-v2/static/js/27.30fbff63.chunk.js",
+    "static/media/alpha-map.png": "/3D-portfolio-v2/static/media/alpha-map.d0ab86baef65d5137043.png",
+    "static/media/cube.glb": "/3D-portfolio-v2/static/media/cube.2cd1d417c0994b805dc7.glb",
+    "index.html": "/3D-portfolio-v2/index.html"
   },
   "entrypoints": [
     "static/css/main.8acdb0c0.css",
-    "static/js/main.f3b354f0.js"
+    "static/js/main.d260b5a1.js"
   ]
 }
