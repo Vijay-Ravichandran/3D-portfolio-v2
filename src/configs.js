@@ -26,7 +26,7 @@ const configs = {
       displayAt: displayAt('About'),
       title: "It's me !",
       infos: [ 
-        "  Transitioned From Project Management to Software Development. ",
+        "* Transitioned From Project Management to Software Development. ",
         "* Former Associate Project Co-Ordinator | Certified Scrum Master",
         "* I'm now channeling my skills into Web development, building both robust backend systems and dynamic frontends.",
         "* My drive is to create compelling, scalable immersive applications, applying continuous learning and hands-on experience to deliver real-world impact.",
@@ -67,7 +67,7 @@ const configs = {
           {
             url: 'icons/resume.png',
             websiteURL:
-              'https://drive.google.com/file/d/1cT0MjB1Uc5LKR6iZQQAMBIM8fthanhR0/view',
+              'https://drive.google.com/file/d/1_zBzKTuFgl-rJQhg2p8jM_VgNzNvBwqB/view?usp=sharing',
           },
         ],
       },

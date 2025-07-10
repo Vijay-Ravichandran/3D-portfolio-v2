@@ -1,12 +1,3 @@
-/* 
-  There are some weird things happening with the offset and the camera 
-  movement because of the implementation of the smooth stop of the camera.
-
-  My solution is to define two diferent positions.
-  position is relative to the scrollComponent, that's for the nav bar, 
-  displayPosition is the offset of the default camara position when facing the cube.
-*/
-
 export const PAGE_DEPH_MARGIN = 15;
 
 export const EXPERIENCE = {
@@ -49,16 +40,11 @@ export const SKILLS_LIST = {
     { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg', websiteURL: null },
-  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg', websiteURL: null },
-  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original-wordmark.svg', websiteURL: null },
-  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original-wordmark.svg', websiteURL: null },
-  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg', websiteURL: null },
-  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg', websiteURL: null }
   ],
