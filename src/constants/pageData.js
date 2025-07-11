@@ -24,20 +24,21 @@ export const EXPERIENCE = {
     },
     {
       url: 'websites-preview/tilogo.jpg',
-      websiteURL:'', //optional open url in new tab
+      websiteURL:'', 
     },
     
   ],
 };
 
 export const SKILLS_LIST = {
-  rows: 5,
+  rows: 3,
+  columns: 3,
   separation: 2.4,
   leftPadding: -0.4,
   topPadding: 0.33,
   scale: 0.15,
   items: [
-    { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg', websiteURL: null },
+  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg', websiteURL: null },
@@ -45,8 +46,6 @@ export const SKILLS_LIST = {
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', websiteURL: null },
   { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original-wordmark.svg', websiteURL: null },
-  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg', websiteURL: null },
-  { url: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg', websiteURL: null }
   ],
 };
 
