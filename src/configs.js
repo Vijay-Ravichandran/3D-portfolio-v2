@@ -47,7 +47,6 @@ const configs = {
       rotation: [-Math.PI / 2, 0, -Math.PI / 2],
       position: [0, PAGE_DEPH_MARGIN, 0],
       title: 'Skills',
-      footer: 'And more...',
       imageList: SKILLS_LIST,
     },
     {
@@ -67,7 +66,7 @@ const configs = {
           {
             url: 'icons/resume.png',
             websiteURL:
-              'https://drive.google.com/file/d/1_zBzKTuFgl-rJQhg2p8jM_VgNzNvBwqB/view?usp=sharing',
+              'https://drive.google.com/file/d/1s3r11Akk3kd6ODxHyriXQkWN01NwNAZz/view?usp=sharing',
           },
         ],
       },
@@ -87,16 +86,16 @@ const configs = {
         scale: 0.3,
         items: [
           {
-            url: 'websites-preview/duetlogo.png',
-            websiteURL: 'https://duetvr.com/',
-          },
-          {
             url: 'websites-preview/Capture.JPG',
-            websiteURL: 'https://drive.google.com/file/d/1s9WS_6zVNQLg5yVUZODf-MYc74iwEurY/view?usp=sharing',
+            websiteURL: 'https://drive.google.com/file/d/1XinW0DE9ClxDcfPaGjX92_8gEko7O90D/view?usp=sharing',
           },
           {
-            url: 'websites-preview/ARRi.png',
-            websiteURL:'https://arr.mindwox.com/',
+            url: 'websites-preview/facemo.png',
+            websiteURL: 'https://drive.google.com/file/d/1DktM1k-txDQyz3O2Gr84IJ1xHHmI6nnM/view?usp=sharing',
+          },
+          {
+            url: 'websites-preview/port.png',
+            websiteURL:'https://vijay-ravichandran.github.io/3D-portfolio-v2/',
           },
         ],
       },
@@ -117,7 +116,7 @@ const configs = {
         items: [
           {
             url: 'icons/linkedin.png',
-            websiteURL: 'https://www.linkedin.com/in/vijayaragavanr2',
+            websiteURL: 'https://www.linkedin.com/in/vijayaragavan2',
           },
           {
             url: 'icons/github.png',
