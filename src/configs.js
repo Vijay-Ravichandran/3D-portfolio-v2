@@ -7,7 +7,7 @@ import {
 } from './constants/pageData';
 
 const configs = {
-  title: ' Immerse yourself',
+  title: ' Immerse yourself manjari',
   subTitle: 'into my portfolio.',
   stars: {
     maxSize: 20,
